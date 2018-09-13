@@ -1,2 +1,2 @@
-# spasium
+# SPASIUM
 Spasium's Landing Page
