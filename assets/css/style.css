@@ -18,3 +18,148 @@
     src: url("../fonts/JosefinSans-Light.ttf");
     font-weight: normal;
 }
+
+body{
+    font-family: 'JosefinL';
+    color: #5c5c5c;
+}
+.bold{
+    font-family: 'JosefinB';
+}
+.theme-color{
+    color: #c9b8a7;
+}
+section{
+    margin-bottom: 2%;
+}
+.btn-theme{
+    background-color: #c28f38;
+    border-radius: 0px;
+    color: #fff;
+}
+
+/* navbar style */
+.nav-item{
+    font-family: 'JosefinB';
+    margin-right: 50px;
+}
+/* navbar style */
+
+/* feature section */
+#feature-section{
+  padding-top: 60px;
+}
+#feature-section .col-md-6:first-child{
+    padding-right: 0px;
+    padding-left: 54px;
+}
+#feature-section .col-md-6:last-child{
+    padding-left: 0px;
+}
+.title-section{
+  margin-bottom: 30px;
+}
+.feature-image--right{
+  margin-left: -4px;  
+}
+/* feature section */
+/* about us section */
+#about-us{
+    margin-top: 5%;
+    background-image: url('../images/bg-2.png');
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#about-us .col-md-8 img{
+    width: 95%;
+}
+.detail-about-us h4{
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+.detail-about-us p{
+    font-size: 12pt;
+    line-height: 1.2;
+}
+.detail-about-us a{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    color: #5c5c5c;
+}
+.detail-about-us div{
+    color: #c28f38;
+}
+.service-list{
+    margin-top: 7%;
+}
+.service:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.service label{
+    margin-top: 15%;
+}
+.service p{
+    line-height: 1.2;
+}
+/* about us section */
+
+/* artist section */
+#feature-artist .title-section{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.photo{
+    display: inline;
+    margin-right: 7px;
+}
+.label-artist{
+    display: none;
+}
+#feature-artist .row:nth-child(2){
+    margin-bottom: 1%;
+}
+/* artist section */
+/* project section */
+#our-project{
+    background-color: #ececec;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#our-project .col-md-4{
+    padding-top: 4%;
+    padding-right: 3%;
+}
+#our-project .col-md-4 p{
+    font-size: 11pt;
+}
+#our-project .col-md-4 h4{
+    margin-bottom: 30px;
+}
+/* project section */
+/* blog */
+#our-blog .row:nth-child(3){
+    margin-top: 10px;
+}
+/* blog */
+/* find us */
+#find-us{
+    background-image: url('../images/bg-find.png');
+    margin-top: 5%;
+    margin-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#find-us .title-section{
+    margin-bottom: 3%;
+}
+/* find us */
+/* footer */
+#footer-lp{
+    background-color: #e4dbd3;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    margin-bottom: 0%;
+    /* color: #5c5c5c; */
+}
+/* footer */
