@@ -166,15 +166,24 @@ section{
 .desc-detail p:nth-child(2){
     margin-bottom: 25px;
 }
+<<<<<<< HEAD
 .link-label{
+=======
+.desc-detail a{
+>>>>>>> ed720cba20f39a0ea3c5fe775d3d2bbd32233513
     border: 1px solid #fff;
     color: #fff;
     padding: 2%;
     margin-top: 10px;
 }
+<<<<<<< HEAD
 .link-label:hover{
     text-decoration: none;
     color: #fff;
+=======
+.desc-detail a:hover{
+    text-decoration: none;
+>>>>>>> ed720cba20f39a0ea3c5fe775d3d2bbd32233513
 }
 /* feature section */
 /* about us section */
