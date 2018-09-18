@@ -37,8 +37,16 @@
         });
 
         $(document).on('click', '.search img',function(){
-            $('#search-input').css({"display" : "block" });
-            $('#search-input').css({"width" : "200px" });
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                // odd clicks
+                $('#search-input').css({"display" : "block" });
+                $('#search-input').css({"width" : "200px" });
+            } else {
+                // even clicks
+                $('#search-input').css({"width" : "0px" });
+            }
+            $(this).data("clicks", !clicks);
         });
     </script>
     <!-- end of custom script -->
@@ -189,27 +197,27 @@
                     <div class="photo">
                         <img src="assets/images/people-adi.png" alt="">
                         <div class="label-artist">
-                            <p class="name-artist"></p>
-                            <p class="artwork-artist"></p>
+                            <p class="name-artist bold">ADI WIDIANTARA</p>
+                            <p class="artwork-artist">Artwork : Photography</p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/people-2.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/people-sanchia.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/people-riri.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
@@ -220,28 +228,28 @@
                 <div class="col-md-12 text-center">
                     <div class="photo">
                         <img src="assets/images/people-aditya.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/people-albert.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/people-arterie.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/people-yhka.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
@@ -286,7 +294,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="photo">
-                        <img src="assets/images/tile6.png" alt="">
+                        <img src="assets/images/blog-1.png" alt="">
                         <div class="label-artist">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
@@ -294,14 +302,14 @@
                     </div>
                     <div class="photo">
                         <img src="assets/images/blog-2.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/blog-3.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
@@ -312,21 +320,21 @@
                 <div class="col-md-12">
                     <div class="photo">
                         <img src="assets/images/blog-4.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/blog-5.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
                     </div>
                     <div class="photo">
                         <img src="assets/images/blog-6.png" alt="">
-                        <div class="label-artist">
+                        <div class="label-artist--hide">
                             <p class="name-artist"></p>
                             <p class="artwork-artist"></p>
                         </div>
