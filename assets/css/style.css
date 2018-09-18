@@ -18,6 +18,11 @@
     src: url("../fonts/JosefinSans-Light.ttf");
     font-weight: normal;
 }
+@font-face {
+    font-family: 'JosefinR';
+    src: url("../fonts/JosefinSans-Regular.ttf");
+    font-weight: normal;
+}
 
 body{
     font-family: 'JosefinL';
@@ -25,6 +30,9 @@ body{
 }
 .bold{
     font-family: 'JosefinB';
+}
+.regular{
+    font-family: 'JosefinR';
 }
 .theme-color{
     color: #c9b8a7;
@@ -68,15 +76,22 @@ section{
 }
 .navbar-nav{
     border-bottom: 1px solid #000;
-    padding-left: 4%;
+    padding-left: 2%;
+    padding-right: 0%;
+    margin-right: 20%;
 }
 .nav-item{
     font-family: 'JosefinB';
     margin-right: 50px;
-    font-size: 14pt;
+    font-size: 16px;
+    color: #555555;
+    letter-spacing: 0.5px;
 }
 .carousel-item{
     position: relative;
+}
+.carousel-item img{
+    width: 100%;
 }
 .carousel-caption{
     position: absolute;
@@ -86,11 +101,16 @@ section{
     width: 342px;
     color: #555555;
 }
+.carousel-control{
+    color: #555555;
+}
 .search{
     display: -webkit-inline-box;
+    margin-right: -50px;
 }
 .search img{
     cursor: pointer;
+    margin-right: 10px
 }
 #search-input{
     width: 0px;
@@ -100,6 +120,9 @@ section{
     background-color: transparent;
     margin-right: 8px;
     transition: all 0.5s ease;
+    position: absolute;
+    right: 7%;
+    /* bottom: 11%; */
 }
 /* navbar style */
 
@@ -117,8 +140,41 @@ section{
 .title-section{
   margin-bottom: 30px;
 }
+.feature-image .col-md-6:first-child img:nth-child(2){
+  float: left;
+}
 .feature-image--right{
-  margin-left: -4px;  
+    margin-left: -4px;
+}
+.image-detail{
+    position: relative;
+}
+.desc-detail{
+    display: block;
+    background-color: #555555a6;
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.desc-detail p{
+    margin-bottom: 10px;
+    -webkit-margin-after: 0px;
+}
+.desc-detail p:nth-child(2){
+    margin-bottom: 25px;
+}
+.link-label{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 2%;
+    margin-top: 10px;
+}
+.link-label:hover{
+    text-decoration: none;
+    color: #fff;
 }
 /* feature section */
 /* about us section */
@@ -170,8 +226,20 @@ section{
 .photo{
     display: inline;
     margin-right: 7px;
+    position: relative;
 }
 .label-artist{
+    display: block;
+    position: absolute;
+    background-color: #555555a6;
+    color: #ffffff;
+    top: -647%;
+    left: 0%;
+    width: 99%;
+    height: 222px;
+    padding-top: 65px;
+}
+.label-artist--hide{
     display: none;
 }
 #feature-artist .row:nth-child(2){
@@ -198,6 +266,32 @@ section{
 /* blog */
 #our-blog .row:nth-child(3){
     margin-top: 10px;
+}
+.label-blog{
+    display: block;
+    position: absolute;
+    background-color: #0000006b;
+    color: #ffffff;
+    top: -439%;
+    left: 0%;
+    width: 99%;
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 2%;
+}
+.label-blog p{
+    -webkit-margin-after: 0px;
+}
+.name-blog{
+    font-family: 'JosefinR';
+    font-size: 15pt;
+    padding-bottom: 10px;
+}
+.quote-blog{
+    font-style: italic;
+    font-size: 12pt;
+    padding-bottom: 20px;
 }
 /* blog */
 /* find us */
