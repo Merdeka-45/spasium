@@ -71,6 +71,9 @@ section{
     transition: all 0.3s ease;
     padding-top: 2%;
 }
+.navbar-brand{
+    padding-left: 10px;
+}
 .navbar-brand img{
     width: 100%;
 }
