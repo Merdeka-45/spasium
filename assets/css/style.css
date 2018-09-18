@@ -69,7 +69,7 @@ section{
     padding-left: 5%;
     padding-right: 5%;
     transition: all 0.3s ease;
-    padding-top: 3%;
+    padding-top: 2%;
 }
 .navbar-brand img{
     width: 100%;
@@ -78,12 +78,12 @@ section{
     border-bottom: 1px solid #000;
     padding-left: 2%;
     padding-right: 0%;
-    margin-right: 20%;
+    margin-right: 13%;
 }
 .nav-item{
     font-family: 'JosefinB';
-    margin-right: 50px;
-    font-size: 16px;
+    margin-right: 35px;
+    font-size: 11pt;
     color: #555555;
     letter-spacing: 0.5px;
 }
@@ -106,7 +106,7 @@ section{
 }
 .search{
     display: -webkit-inline-box;
-    margin-right: -50px;
+    margin-right: 6px;
 }
 .search img{
     cursor: pointer;
@@ -121,7 +121,7 @@ section{
     margin-right: 8px;
     transition: all 0.5s ease;
     position: absolute;
-    right: 7%;
+    right: 12%;
     /* bottom: 11%; */
 }
 /* navbar style */
