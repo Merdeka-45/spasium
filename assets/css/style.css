@@ -33,6 +33,7 @@ body{
 }
 .regular{
     font-family: 'JosefinR';
+    font-size: 15px;
 }
 .theme-color{
     color: #c9b8a7;
@@ -43,7 +44,7 @@ section{
 .btn-theme{
     background-color: #c28f38;
     border-radius: 0px;
-    color: #fff;
+    color: #e4dcd5;;
     border: 1px solid transparent;
 }
 .btn-theme:hover{
@@ -151,9 +152,15 @@ section{
 }
 .image-detail{
     position: relative;
+    float: left;
+}
+.image-detail:hover .desc-detail{
+    /* width: 100%; */
+    opacity: 1;
 }
 .desc-detail{
     display: block;
+    opacity: 0;
     background-color: #555555a6;
     position: absolute;
     width: 100%;
@@ -161,6 +168,7 @@ section{
     color: #ffffff;
     padding-top: 3%;
     padding-bottom: 5%;
+    transition: 0.3s all ease;
 }
 .desc-detail p{
     margin-bottom: 10px;
@@ -187,15 +195,22 @@ section{
     padding-top: 5%;
     padding-bottom: 5%;
 }
+#about-us .col-md-8{
+    padding-left: 4.5%;
+}
 #about-us .col-md-8 img{
-    width: 95%;
+    width: 96%;
+}
+.detail-about-us{
+    padding-right: 5%;
 }
 .detail-about-us h4{
     margin-top: 8%;
     margin-bottom: 15%;
 }
 .detail-about-us p{
-    font-size: 12pt;
+    /* font-size: 12pt; */
+    font-size: 15px;
     line-height: 1.2;
 }
 .detail-about-us a{
@@ -217,7 +232,12 @@ section{
     margin-top: 15%;
 }
 .service p{
-    line-height: 1.2;
+    /* line-height: 1.2; */
+    width: 244px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: normal;
 }
 /* about us section */
 
@@ -226,20 +246,26 @@ section{
     margin-top: 4%;
     margin-bottom: 5%;
 }
+.list-artist{
+    padding-left: 8%;
+    padding-right: 8%;
+}
 .photo{
-    display: inline;
+    float: left;
+    /* display: none; */
     margin-right: 7px;
     position: relative;
 }
 .label-artist{
-    display: block;
+    /* display: block; */
+    display: none;
     position: absolute;
     background-color: #555555a6;
     color: #ffffff;
     top: -647%;
     left: 0%;
-    width: 99%;
-    height: 222px;
+    width: 98%;
+    height: 223px;
     padding-top: 65px;
 }
 .label-artist--hide{
@@ -271,7 +297,7 @@ section{
     margin-top: 10px;
 }
 .label-blog{
-    display: block;
+    display: none;
     position: absolute;
     background-color: #0000006b;
     color: #ffffff;
