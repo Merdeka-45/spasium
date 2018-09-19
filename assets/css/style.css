@@ -41,6 +41,9 @@ body{
 section{
     margin-bottom: 2%;
 }
+.p-no-ma{
+    -webkit-margin-after: 0px !important;
+}
 .btn-theme{
     background-color: #c28f38;
     border-radius: 0px;
@@ -163,29 +166,29 @@ section{
     opacity: 0;
     background-color: #555555a6;
     position: absolute;
-    width: 100%;
     top: 38%;
     color: #ffffff;
     padding-top: 3%;
     padding-bottom: 5%;
     transition: 0.3s all ease;
 }
-.desc-detail p{
-    margin-bottom: 10px;
-    -webkit-margin-after: 0px;
-}
 .desc-detail p:nth-child(2){
-    margin-bottom: 25px;
+    margin-bottom: 21px !important;
+}
+.image--author{
+    font-style: italic;
 }
 .link-label{
     border: 1px solid #fff;
     color: #fff;
     padding: 2%;
     margin-top: 10px;
+    transition: all 0.4s ease;
 }
 .link-label:hover{
     text-decoration: none;
-    color: #fff;
+    color: #000;
+    background-color: #fff
 }
 /* feature section */
 /* about us section */
@@ -252,24 +255,31 @@ section{
 }
 .photo{
     float: left;
-    /* display: none; */
     margin-right: 7px;
     position: relative;
 }
+.photo:hover .label-artist{
+    opacity: 1;
+}
 .label-artist{
-    /* display: block; */
-    display: none;
+    opacity: 0;
     position: absolute;
     background-color: #555555a6;
     color: #ffffff;
-    top: -647%;
-    left: 0%;
-    width: 98%;
-    height: 223px;
-    padding-top: 65px;
+    top: 0%;
+    text-align: center;
+    padding-top: 70%;
+    transition: all 0.5s ease;
 }
 .label-artist--hide{
     display: none;
+}
+.name-artist{
+    -webkit-margin-after: 0px;
+    font-size: 18px;
+}
+.artwork-artist{
+    font-style: italic;
 }
 #feature-artist .row:nth-child(2){
     margin-bottom: 1%;
@@ -283,10 +293,10 @@ section{
 }
 #our-project .col-md-4{
     padding-top: 4%;
-    padding-right: 3%;
+    padding-right: 1%;
 }
 #our-project .col-md-4 p{
-    font-size: 11pt;
+    font-size: 14px;
 }
 #our-project .col-md-4 h4{
     margin-bottom: 30px;
@@ -296,18 +306,23 @@ section{
 #our-blog .row:nth-child(3){
     margin-top: 10px;
 }
+.thumb-blog{
+    float: left;
+    margin-right: 7px;
+    position: relative;
+}
+.thumb-blog:hover .label-blog{
+    opacity: 1;
+}
 .label-blog{
-    display: none;
+    opacity: 0;
     position: absolute;
     background-color: #0000006b;
     color: #ffffff;
-    top: -439%;
-    left: 0%;
-    width: 99%;
+    top: 27%;
     padding-top: 2%;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
+    transition: all 0.4s ease;
 }
 .label-blog p{
     -webkit-margin-after: 0px;
@@ -319,7 +334,7 @@ section{
 }
 .quote-blog{
     font-style: italic;
-    font-size: 12pt;
+    font-size: 14px;
     padding-bottom: 20px;
 }
 /* blog */
