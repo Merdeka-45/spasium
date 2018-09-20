@@ -41,6 +41,9 @@ body{
 section{
     margin-bottom: 2%;
 }
+.subheadline{
+    font-size: 23px;
+}
 .p-no-ma{
     -webkit-margin-after: 0px !important;
 }
