@@ -1,5 +1,5 @@
 // custom script
-        $(document).ready(function() {
+$(document).ready(function() {
         var menu = $("#menu-spasium");
         var menuLink = $(".nav-link");
         var navimage = $(".navbar-brand img");
@@ -31,4 +31,5 @@
             }
             $(this).data("clicks", !clicks);
         });
+});
 // end of custom script
