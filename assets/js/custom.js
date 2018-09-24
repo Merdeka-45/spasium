@@ -4,19 +4,17 @@ $(document).ready(function() {
         var menuLink = $(".nav-link");
         var navimage = $(".navbar-brand img");
         var pos = menu.position();
-            $(window).scroll(function() {
-                var windowpos = $(window).scrollTop();
-                if (windowpos >= pos.top & windowpos > 50) {
-                    menu.css({"background-color":"#fff"});
-                    menu.css({"padding-top":"0%"});
-                    navimage.css({"width":"75%"});
-                } else {
-                    menu.css({"background-color":"transparent"});
-                    menu.css({"padding-top":"2%"});
-                    navimage.css({"width":"100%"});
-                }
-            });
-
+        $(window).scroll(function() {
+            var windowpos = $(window).scrollTop();
+            if (windowpos >= pos.top & windowpos > 50) {
+                menu.css({"background-color":"#fff"});
+                menu.css({"padding-top":"0%"});
+                navimage.css({"width":"75%"});
+            } else {
+                menu.css({"background-color":"transparent"});
+                menu.css({"padding-top":"1.1%"});
+                navimage.css({"width":"100%"});
+            }
         });
 
         $(document).on('click', '.search img',function(){

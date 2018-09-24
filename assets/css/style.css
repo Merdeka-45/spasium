@@ -35,11 +35,11 @@ body{
     font-family: 'JosefinR';
     font-size: 15px;
 }
+.light{
+    font-family: 'JosefinL';
+}
 .theme-color{
     color: #c9b8a7;
-}
-section{
-    margin-bottom: 2%;
 }
 .subheadline{
     font-size: 23px;    
@@ -76,7 +76,8 @@ section{
     padding-left: 5%;
     padding-right: 5%;
     transition: all 0.3s ease;
-    padding-top: 2%;
+    /* padding-top: 53px; */
+    padding-top: 1.1%;
 }
 .navbar-brand{
     padding-left: 10px;
@@ -138,7 +139,8 @@ section{
 
 /* feature section */
 #feature-section{
-  padding-top: 60px;
+  margin-top: 47px;
+  margin-bottom: 47px;
 }
 #feature-section .col-md-6:first-child{
     padding-right: 0px;
@@ -148,7 +150,7 @@ section{
     padding-left: 0px;
 }
 .title-section{
-  margin-bottom: 30px;
+  margin-bottom: 47px;
 }
 .feature-image .col-md-6:first-child img:nth-child(2){
   float: left;
@@ -196,10 +198,9 @@ section{
 /* feature section */
 /* about us section */
 #about-us{
-    margin-top: 5%;
     background-image: url('../images/bg-2.png');
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 47px;
+    padding-bottom: 45px;
 }
 #about-us .col-md-8{
     padding-left: 4.5%;
@@ -228,14 +229,14 @@ section{
     color: #c28f38;
 }
 .service-list{
-    margin-top: 7%;
+    margin-top: 47px;
 }
 .service:nth-child(2){
     margin-left: 5%;
     margin-right: 5%;
 }
 .service label{
-    margin-top: 15%;
+    margin-top: 39px;
 }
 .service p{
     /* line-height: 1.2; */
@@ -248,9 +249,11 @@ section{
 /* about us section */
 
 /* artist section */
+#feature-artist{
+    margin-bottom: 47px;    
+}
 #feature-artist .title-section{
-    margin-top: 4%;
-    margin-bottom: 5%;
+    margin-top: 47px;
 }
 .list-artist{
     padding-left: 8%;
@@ -258,7 +261,7 @@ section{
 }
 .photo{
     float: left;
-    margin-right: 7px;
+    margin-right: 9px;
     position: relative;
 }
 .photo:hover .label-artist{
@@ -285,33 +288,37 @@ section{
     font-style: italic;
 }
 #feature-artist .row:nth-child(2){
-    margin-bottom: 1%;
+    margin-bottom: 9px;
 }
 /* artist section */
 /* project section */
 #our-project{
     background-color: #ececec;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 47px;
+    padding-bottom: 47px;
 }
 #our-project .col-md-4{
-    padding-top: 4%;
+    padding-top: 49px;
     padding-right: 1%;
 }
 #our-project .col-md-4 p{
     font-size: 14px;
+    line-height: 18px;
 }
 #our-project .col-md-4 h4{
-    margin-bottom: 30px;
+    margin-bottom: 47px;
 }
 /* project section */
 /* blog */
+#our-blog{
+    padding-top: 46px;
+}
 #our-blog .row:nth-child(3){
-    margin-top: 10px;
+    margin-top: 10.5px;
 }
 .thumb-blog{
     float: left;
-    margin-right: 7px;
+    margin-right: 12.3px;
     position: relative;
 }
 .thumb-blog:hover .label-blog{
@@ -344,13 +351,13 @@ section{
 /* find us */
 #find-us{
     background-image: url('../images/bg-find.png');
-    margin-top: 5%;
-    margin-bottom: 4%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    margin-top: 47px;
+    padding-top: 46px;
+    padding-bottom: 47px;
 }
-#find-us .title-section{
-    margin-bottom: 3%;
+#subscribe-lp{
+    margin-top: 46px;
+    margin-bottom: 46px;
 }
 .subscribe input{
     border: 0px;
@@ -367,8 +374,8 @@ section{
 /* footer */
 #footer-lp{
     background-color: #e4dbd3;
-    padding-top: 4%;
-    padding-bottom: 3%;
+    padding-top: 49px;
+    padding-bottom: 19px;
     margin-bottom: 0%;
 }
 #footer-lp .footer--hr{
@@ -388,5 +395,9 @@ section{
 .socmed-footer .btn-group .btn{
     background: transparent;
     border: 0px;
+}
+.copyright{
+    margin-top: 28px;
+    margin-bottom: 39px;
 }
 /* footer */
