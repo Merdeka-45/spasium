@@ -369,6 +369,12 @@ body{
 .subscribe input:focus{
     outline: none;
 }
+.name-place{
+    font-size: 18px;
+}
+.address{
+    font-size: 14px;
+}
 
 /* find us */
 /* footer */
