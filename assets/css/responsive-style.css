@@ -9,7 +9,7 @@
         text-align: right;
     }
     .navbar-brand img{
-        width: 70%;
+        width: 70% !important;
     }
     /* end of navbar */
     /* featured */
@@ -82,7 +82,72 @@
     /* end of find us */
 }
 @media only screen and (max-width: 360px)  { 
+    .navbar-toggler{
+        padding: 2px 7px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-size: 85%;
+    }
+    .navbar-brand img{
+        width: 50% !important;
+    }
     .image-detail img{
         width: 100%;
     }
+    .feature-image .col-md-12:first-child .image-detail:nth-child(2), .feature-image .col-md-12:last-child .image-detail:nth-child(1){
+        width: 50%;
+    }
+    .feature-image .col-md-12:first-child .image-detail:nth-child(3), .feature-image .col-md-12:last-child .image-detail:nth-child(2){
+        width: 46%;
+    }
+    /* artist */
+    .list-artist .col-md-12{
+        text-align: center;
+    }
+    .photo{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .photo img{
+        width: 100%;
+    }
+    .photo:nth-child(even){
+        position: relative;
+    }
+    .photo:nth-child(4){
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .photo:nth-child(3){
+        margin-top: 10px;
+    }
+    /* end of artist */
+    /* blog */
+    .thumb-blog img{
+        width: 100% !important;
+    }
+    #our-blog .row:nth-child(2) .thumb-blog:first-child img, #our-blog .row:nth-child(3) .thumb-blog:last-child img{
+        width: 104.7% !important;
+    }
+    .thumb-blog:nth-child(2){
+        width: 42%;
+    }
+    #our-blog .row:last-child .thumb-blog:first-child{
+        width: 51.3%;
+    }
+    #our-blog .row:last-child .thumb-blog:nth-child(2){
+        width: 35%;
+        margin-left: 0%;
+    }
+    /* end of blog */
+    /* project */
+    #our-project{
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    #our-project .col-md-8 img{
+        width: 104% !important;
+    }
+    /* end of project */
 }
