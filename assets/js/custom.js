@@ -29,5 +29,18 @@ $(document).ready(function() {
             }
             $(this).data("clicks", !clicks);
         });
+
+        $(document).on('click', '.navbar-toggler',function(){
+            var menu = $("#menu-spasium");
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                // odd clicks
+                menu.css({"background-color":"transparent"});
+            } else {
+                // even clicks
+                menu.css({"background-color":"#fff"});
+            }
+            $(this).data("clicks", !clicks);
+        });
 });
 // end of custom script

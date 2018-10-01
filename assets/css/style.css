@@ -93,6 +93,7 @@ body{
 }
 .nav-item{
     font-family: 'JosefinB';
+    /* margin-right: 3.4%; */
     margin-right: 35px;
     font-size: 11pt;
     color: #555555;
@@ -152,15 +153,14 @@ body{
 .title-section{
   margin-bottom: 47px;
 }
-.feature-image .col-md-6:first-child img:nth-child(2){
+/* .feature-image .col-6:first-child img:nth-child(2){
   float: left;
-}
+} */
 .feature-image--right{
     margin-left: -4px;
 }
 .image-detail{
     position: relative;
-    float: left;
 }
 .image-detail:hover .desc-detail{
     /* width: 100%; */
@@ -260,7 +260,6 @@ body{
     padding-right: 8%;
 }
 .photo{
-    float: left;
     margin-right: 9px;
     position: relative;
 }
@@ -317,7 +316,6 @@ body{
     margin-top: 10.5px;
 }
 .thumb-blog{
-    float: left;
     margin-right: 12.3px;
     position: relative;
 }

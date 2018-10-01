@@ -1,0 +1,88 @@
+@media only screen and (min-width: 721px)  { 
+    .image-detail, .photo, .thumb-blog{
+        float: left;
+    }
+}
+@media only screen and (max-width: 720px)  { 
+    /* navbar */
+    .nav-item{
+        text-align: right;
+    }
+    .navbar-brand img{
+        width: 70%;
+    }
+    /* end of navbar */
+    /* featured */
+    .feature-image .col-md-12:first-child .image-detail:nth-child(2), .feature-image .col-md-12:last-child .image-detail:nth-child(1){
+        display: inline-block;
+    }
+    .feature-image .col-md-12:first-child .image-detail:last-child, .feature-image .col-md-12:last-child .image-detail:nth-child(2){
+        display: inline-block;
+        position: absolute;
+    }
+    /* end of featured */
+    /* detail us */
+    .detail-about-us h4{
+        margin-bottom: 30px;
+    }
+    .service{
+        margin-bottom: 30px;
+    }
+    .service label{
+        margin-top: 20px;
+    }
+    .service p{
+        margin: 0 auto;
+    }
+    /* end of detail us */
+
+    /* artist */
+    .photo{
+        display: inline-block;
+    }
+    .photo:nth-child(even){
+        position: absolute;
+    }
+    .photo:nth-child(4){
+        margin-right: 0px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .photo:nth-child(3){
+        margin-top: 10px;
+    }
+    /* end of artist */
+    /* project */
+    #our-project .col-md-8 img{
+        width: 102%;
+    }
+    /* end of project */
+    /* blog */
+    .thumb-blog{
+        display: inline-block;
+    }
+    .thumb-blog:first-child{
+        margin-bottom: 2%;
+    }
+    #our-blog .row:nth-child(2) .thumb-blog:first-child img, #our-blog .row:nth-child(3) .thumb-blog:last-child img{
+        width: 114.1%;
+    }
+    #our-blog .row:nth-child(2) .thumb-blog:nth-child(3){
+        position: absolute;
+    }
+    #our-blog .row:nth-child(3) .thumb-blog:nth-child(2){
+        position: absolute;
+        margin-left: -5px;
+    } 
+    /* end of blog */
+    /* find us */
+    #find-us .col-md-3{
+        display: inline-block;
+    }
+    /* end of find us */
+}
+@media only screen and (max-width: 360px)  { 
+    .image-detail img{
+        width: 100%;
+    }
+}
