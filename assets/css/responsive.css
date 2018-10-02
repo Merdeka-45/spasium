@@ -27,7 +27,7 @@
     #about-us .col-9 h4{
         margin-bottom: 5%;
     }
-    .detail-about-us div{
+    .detail-about-us{
         text-align: center;
     }
     .service{
@@ -57,16 +57,26 @@
     }
     #our-project .col-10:first-child{
         margin-top: 20px;
+        text-align: center !important;
     }
     #our-project .col-10:first-child h4{
         margin-bottom: 25px;
     }
-    #our-project .row .col-10:first-child p:nth-child(3){
+    #our-project .row .col-10:first-child .artwork-project{
         margin-top: 75%;
+        margin-left: 2%;
+        text-align: left;
     }
+    #our-project .row .col-10:first-child .location-project{
+        text-align: left;
+        position: absolute;
+        bottom: 0%;
+        left: 70%;
+    }
+
     #our-project .row .col-10:last-child{
         position: absolute;
-        top: 250px;;
+        top: 225px;;
         right: 7%;
     }
     #our-project img{
@@ -88,6 +98,9 @@
     .row{
         justify-content: center;
     }
+    .image-detail, .photo, .thumb-blog{
+        float: left !important;
+    }
     #our-project img{
         width: 100%;
     }
@@ -102,6 +115,9 @@
     }
     .image-detail.tile-2{
         width: 50%;
+    }
+    .detail-about-us{
+        text-align: center;
     }
     #about-us .col-md-8{
         text-align: center;
@@ -135,12 +151,21 @@
     }
     #our-project .col-10:first-child{
         margin-top: 20px;
+        text-align: center !important;
     }
     #our-project .col-10:first-child h4{
         margin-bottom: 25px;
     }
-    #our-project .row .col-10:first-child p:nth-child(3){
+    #our-project .row .col-10:first-child .artwork-project{
         margin-top: 75%;
+        margin-left: 2%;
+        text-align: left;
+    }
+    #our-project .row .col-10:first-child .location-project{
+        text-align: left;
+        position: absolute;
+        bottom: 0%;
+        left: 70%;
     }
     #our-project .row .col-10:last-child{
         position: absolute;
