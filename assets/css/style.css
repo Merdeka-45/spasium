@@ -93,26 +93,11 @@ body{
 }
 .nav-item{
     font-family: 'JosefinB';
-    /* margin-right: 3.4%; */
     margin-right: 35px;
     font-size: 11pt;
     color: #555555;
     letter-spacing: 0.5px;
 }
-/* .carousel-item{
-    position: relative;
-}
-.carousel-item img{
-    width: 100%;
-}
-.carousel-caption{
-    position: absolute;
-    bottom: 42%;
-    left: 53%;
-    font-size: 17pt;
-    width: 342px;
-    color: #555555;
-} */
 .carousel-control{
     color: #555555;
 }
