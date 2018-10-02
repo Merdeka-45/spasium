@@ -67,7 +67,6 @@
     #our-project .row .col-10:last-child{
         position: absolute;
         top: 250px;;
-        /* top: 33%; */
         right: 7%;
     }
     #our-project img{
@@ -90,7 +89,92 @@
     }
 }
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { }
+@media (max-width: 767.98px) { 
+    .row{
+        justify-content: center;
+    }
+    #our-project img{
+        width: 100%;
+    }
+    .navbar-brand img{
+        width: 70% !important;
+    }
+    .feature-image{
+        justify-content: center;
+    }
+    .image-detail.tile-1, .image-detail img{
+        width: 100%;
+    }
+    .image-detail.tile-2{
+        width: 50%;
+    }
+    #about-us .col-md-8{
+        text-align: center;
+    }
+    #about-us .col-md-8 img{
+        width: 100%;
+    }
+    #about-us .col-9 h4{
+        margin-bottom: 5%;
+    }
+    .service{
+        margin-bottom: 5%;
+    }
+    .service p{
+        width: 100%;
+    }
+    .service label{
+        margin-top: 20px;
+    }
+    .photo{
+        text-align: center;
+        margin-bottom: 4%;
+        margin-right: 20px;
+        width: 45%;
+    }
+    .photo img{
+        width: 100%;
+    }
+    #our-project .row{
+        position: relative;
+    }
+    #our-project .col-10:first-child{
+        margin-top: 20px;
+    }
+    #our-project .col-10:first-child h4{
+        margin-bottom: 25px;
+    }
+    #our-project .row .col-10:first-child p:nth-child(3){
+        margin-top: 75%;
+    }
+    #our-project .row .col-10:last-child{
+        position: absolute;
+        top: 225px;;
+        right: 7%;
+    }
+    .tile-blog-1{
+        width: 100%;
+    }
+    .tile-blog-1 img, .tile-blog-1 .label-blog{
+        width: 93.5% !important;
+    }
+    .tile-blog-2{
+        width: 39%;
+    }
+    .tile-blog-2 img, .tile-blog-3 img{
+        width: 100%;
+    }
+    .tile-blog-3{
+        width: 52%;
+    }
+    .tile-blog-2, .tile-blog-3{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    #our-blog .row:nth-child(3){
+        margin-top: 0px;
+    }
+}
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {  }
