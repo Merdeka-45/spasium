@@ -105,7 +105,7 @@
         right: 7% !important;
     }
     #our-project .row .col-10:first-child .location-project .regular{
-        font-size: 11px;
+        font-size: 11px !important;
     }
 }
 /* // Small devices (landscape phones, less than 768px) */
