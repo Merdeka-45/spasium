@@ -73,10 +73,13 @@
         bottom: 0%;
         left: 70%;
     }
-
+    #our-project .row .col-10:first-child .location-project .regular{
+        font-size: 12px;
+    }
     #our-project .row .col-10:last-child{
         position: absolute;
-        top: 225px;;
+        top: 37%;
+        /* top: 240px; */
         right: 7%;
     }
     #our-project img{
