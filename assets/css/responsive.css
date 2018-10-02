@@ -1,0 +1,93 @@
+@media (max-width: 575.98px) { 
+    .navbar-brand img{
+        width: 50% !important;
+    }
+    .subheadline{
+        font-size: 17px;
+    }
+    .feature-image{
+        justify-content: center;
+    }
+    .image-detail, .image-detail img, .thumb-blog, .thumb-blog img{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .desc-detail{
+        top: 16%;
+    }
+    .row{
+        justify-content: center;
+    }
+    #about-us .col-md-8{
+        text-align: center;
+    }
+    #about-us .col-md-8 img{
+        width: 75%;
+    }
+    #about-us .col-9 h4{
+        margin-bottom: 5%;
+    }
+    .detail-about-us div{
+        text-align: center;
+    }
+    .service{
+        margin-bottom: 5%;
+    }
+    .service p{
+        width: 100%;
+    }
+    .service label{
+        margin-top: 20px;
+    }
+    .photo{
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    .photo img{
+        width: 75%;
+    }
+    .label-artist{
+        height: auto !important;
+        margin-left: 12.4%;
+        width: 75.4% !important;
+        padding-top: 60.5%;
+    }
+    #our-project .row{
+        position: relative;
+    }
+    #our-project .col-10:first-child{
+        margin-top: 20px;
+    }
+    #our-project .col-10:first-child h4{
+        margin-bottom: 25px;
+    }
+    #our-project .row .col-10:first-child p:nth-child(3){
+        margin-top: 75%;
+    }
+    #our-project .row .col-10:last-child{
+        position: absolute;
+        top: 33%;
+        right: 7%;
+    }
+    #our-project img{
+        width: 100%;
+    }
+    .label-blog{
+        top: 7%;
+    }
+    #footer-lp .col-8:first-child{
+        margin-bottom: 5%;
+    }
+    .socmed-footer{
+        text-align: center !important;
+    }
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }

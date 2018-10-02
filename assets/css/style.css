@@ -99,7 +99,7 @@ body{
     color: #555555;
     letter-spacing: 0.5px;
 }
-.carousel-item{
+/* .carousel-item{
     position: relative;
 }
 .carousel-item img{
@@ -112,7 +112,7 @@ body{
     font-size: 17pt;
     width: 342px;
     color: #555555;
-}
+} */
 .carousel-control{
     color: #555555;
 }

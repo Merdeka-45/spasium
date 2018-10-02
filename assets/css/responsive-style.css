@@ -12,6 +12,12 @@
         width: 70% !important;
     }
     /* end of navbar */
+    .image-detail{
+        width: 100%;
+    }
+    .image-detail img{
+        width: 100%;
+    }
     /* featured */
     .feature-image .col-md-12:first-child .image-detail:nth-child(2), .feature-image .col-md-12:last-child .image-detail:nth-child(1){
         display: inline-block;
@@ -81,6 +87,11 @@
     }
     /* end of find us */
 }
+@media only screen and (max-width:425px){ 
+
+}
+
+
 @media only screen and (max-width: 360px)  { 
     .navbar-toggler{
         padding: 2px 7px;
@@ -90,6 +101,9 @@
     }
     .navbar-brand img{
         width: 50% !important;
+    }
+    .image-detail{
+        width: 100%;
     }
     .image-detail img{
         width: 100%;
