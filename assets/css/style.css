@@ -146,6 +146,7 @@ body{
 }
 .image-detail{
     position: relative;
+    /* float: left; */
 }
 .image-detail:hover .desc-detail{
     /* width: 100%; */
