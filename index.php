@@ -63,7 +63,7 @@
                 </div>
             </nav>
         </div>
-        <div id="slide-header-spasium banner" class="carousel slide" data-ride="carousel">
+        <div id="slide-header-spasium" class="carousel slide banner" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#slide-header-spasium" data-slide-to="0" class="active"></li>
               <li data-target="#slide-header-spasium" data-slide-to="1"></li>
