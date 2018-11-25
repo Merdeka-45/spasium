@@ -147,13 +147,19 @@ body{
 .feature-image--right{
     margin-left: -4px;
 }
-.image-detail{
+.image-detail, .photo, .thumb-blog{
     position: relative;
-    /* float: left; */
+    overflow: hidden;
 }
 .image-detail:hover .desc-detail{
     /* width: 100%; */
     opacity: 1;
+}
+.image-detail img, .photo img, .thumb-blog img{
+    transition: all .5s ease-in;
+}
+.image-detail:hover img, .photo:hover img, .thumb-blog:hover img{
+    transform: scale(1.2);
 }
 .desc-detail{
     display: block;
@@ -190,6 +196,9 @@ body{
     background-image: url('../images/bg-2.png');
     padding-top: 47px;
     padding-bottom: 45px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #about-us .col-md-8{
     padding-left: 4.5%;
@@ -341,6 +350,9 @@ body{
     margin-top: 47px;
     padding-top: 46px;
     padding-bottom: 47px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #subscribe-lp{
     margin-top: 46px;
