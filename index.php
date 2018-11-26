@@ -16,10 +16,11 @@
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- end of Javascript -->
     
     <!-- custom javascript -->
-        <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom.js"></script>
     <!-- end of custom javascript -->
 
 </head>
@@ -477,5 +478,9 @@
             </div>
         </div>
     </section>
+    <script>
+        ScrollReveal().reveal('.image-detail, .service', { delay: 300 });
+        ScrollReveal().reveal('.photo, .thumb-blog', { delay: 500 });
+    </script>
 </body>
 </html>
