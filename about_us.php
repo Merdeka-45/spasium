@@ -27,7 +27,7 @@
     <section id="landing-section-slideshow">
         <div>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="menu-spasium">
-                <a class="navbar-brand" href="/spasium/index.php">
+                <a class="navbar-brand" href="/index.php">
                     <img src="assets/images/logo-spasium.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav text-center ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/spasium/about_us.php">About Us</a>
+                            <a class="nav-link" href="/about_us.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Our Project</a>
