@@ -9,6 +9,7 @@
                             <a href="">Artworks</a>
                             <a href="">Bussiness</a>
                             <a href="">Delivery</a>
+                            <a href="/client.php">Our Client</a>
                         </div>
                         <div class="col-6 col-xl-6 col-sm-6">
                             <a href="">Return</a>
