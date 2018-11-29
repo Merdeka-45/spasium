@@ -1,69 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Spasium</title>
-    
-    <!-- CSS  -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- end of CSS  -->
-
-    <!-- Javascript -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- end of Javascript -->
-    
-    <!-- custom javascript -->
-    <script src="assets/js/custom.js"></script>
-    <!-- end of custom javascript -->
-
-</head>
-<body>
+<?php include('header.php');?>
     <section id="landing-section-slideshow">
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="menu-spasium">
-                <a class="navbar-brand" href="/index.php">
-                    <img src="assets/images/logo-spasium.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav text-center ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about_us.php">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Spasium Artist</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">3D Art</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Store</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                    </ul>
-                    <div class="navbar-text search">
-                        <input type="text" placeholder="Cari" id="search-input">
-                        <img src="assets/images/search.png" alt="">
-                        <img src="assets/images/cart.png" alt="">
-                        <img src="assets/images/user.png" alt="">
-                    </div> 
-                </div>
-            </nav>
-        </div>
         <div id="slide-header-spasium" class="carousel slide banner" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#slide-header-spasium" data-slide-to="0" class="active"></li>
@@ -438,49 +374,8 @@
             </div>
         </div>
     </section>
-    <section id="footer-lp">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-8 col-xl-3 col-sm-5">
-                    <p class="bold p-no-ma">Information</p>
-                    <hr class="footer--hr">
-                    <div class="row footer-menu">
-                        <div class="col-6 col-xl-6 col-sm-6 col-6">
-                            <a href="">Artworks</a>
-                            <a href="">Bussiness</a>
-                            <a href="">Delivery</a>
-                        </div>
-                        <div class="col-6 col-xl-6 col-sm-6">
-                            <a href="">Return</a>
-                            <a href="">Ordering</a>
-                            <a href="">Content Policy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-8 col-xl-4 col-sm-5">
-                    <p class="bold p-no-ma">Contact Us</p>
-                    <hr class="footer--hr">
-                    <p>P : (+62) 882 1553 0130 | (+62) 817 527 3595</p>
-                    <p>E : info@spasium.com</p>
-                </div>
-                <div class="col-6 col-xl-3 col-sm-2 socmed-footer text-right">
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-secondary"><img src="assets/images/socmed-fb.png" alt=""></button>
-                        <button type="button" class="btn btn-secondary"><img src="assets/images/socmed-twitter.png" alt=""></button>
-                        <button type="button" class="btn btn-secondary"><img src="assets/images/socmed-ig.png" alt=""></button>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center copyright">
-                <div class="col-md-6 text-center">
-                    Copyright &copy; 2018 by <span class="bold">Spasium</span>. All right reserved
-                </div>
-            </div>
-        </div>
-    </section>
     <script>
         ScrollReveal().reveal('.image-detail, .service', { delay: 300 });
         ScrollReveal().reveal('.photo, .thumb-blog', { delay: 500 });
     </script>
-</body>
-</html>
+<?php include('footer.php');?>

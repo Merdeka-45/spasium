@@ -477,3 +477,74 @@ body{
 }
 /* end of work together */
 /* end of about us page */
+
+/* Client page */
+.banner--client{
+    margin-top: 17% ;
+}
+.banner--client  *, .banner--project *, .content-project *{
+    padding: 0px;
+    margin: 0px;
+}
+.our-client-section-client{
+    background-image: url('../images/bg-find.png');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.our-client-section-client div .client-box .col-xl-10{
+    background-color: #fff;
+    padding: 35px 60px;
+}
+.our-client-section-client div .client-box .col-xl-10 .client-logos img{
+    margin: 15px 10px;
+}
+.collaboration-section-client div .row .col-xl-12{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.collaboration-section-client div .row div .partner-logos img{
+    margin: 15px 5px;
+}
+/* end of Client page */
+
+/* project page */
+.content-project div .justify-content-center .col-xl-9{
+    padding-left: 22px;
+    padding-right: 40px;
+}
+.content-project div .justify-content-center .col-xl-9 .list-project{
+    margin-bottom: 40px;
+}
+.content-project div .justify-content-center .col-xl-9 .list-project img{
+    margin-bottom: 25px;
+}
+.content-project div .justify-content-center .col-xl-9 .list-project .row .custom-width-col{
+    max-width: 12%;
+}
+.content-project div .justify-content-center .col-xl-9 .list-project .row div .bold{
+    font-size: 20pt;
+}
+.content-project div .justify-content-center .col-xl-9 .list-project .row div p{
+    margin-bottom: 0px;
+}
+.pagination-spasium ul li{
+    margin: 0px 10px 0px 10px;
+}
+.pagination-spasium ul li a{
+    border: 0px;
+    color: #5c5c5c;
+}
+.pagination-spasium ul li a:hover{
+    background-color: transparent;
+    color: #5c5c5c;
+}
+.see-client-project {
+    background-image: url('../images/bg-find.png');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.see-client-project .box-project{
+    background-color: #fff;
+    padding: 4%;
+}
+/* end of project page */
