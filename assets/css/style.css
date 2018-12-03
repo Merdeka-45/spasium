@@ -413,14 +413,15 @@ body{
     margin-top: 40px;
 }
 .about-us-banner .container .row div .about-us-banner--image img:nth-child(1){
-    position: relative;
-    left: -30px;
-    top: 70px;
+    position: fixed;
+    left: 265px;
+    top: 370px;
     width: 65px;
 }
 .about-us-banner .container .row div .about-us-banner--image img:nth-child(2){
-    width: 665px;
-    margin-left: -60px;
+    /* width: 665px; */
+    width: 60%;
+    margin-left: 10px;
 }
 .about-us-desc{
     margin-top: -145px;
@@ -453,13 +454,14 @@ body{
     line-height: 1.7;
 }
 .milestone .container .row .right-side-milestone .image-milestone img:nth-child(1){
-    width: 420px;
+    width: 81.6%;
+    /* width: 420px; */
 }
-.milestone .container .row .right-side-milestone .image-milestone img:nth-child(2){
+/* .milestone .container .row .right-side-milestone .image-milestone img:nth-child(2){
     position: absolute;
     top: -50px;
     right: 25px;
-}
+} */
 .milestone .container .row .right-side-milestone .list-milestone{
     margin-left: 40px;
     margin-top: 20px;

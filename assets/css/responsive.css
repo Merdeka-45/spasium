@@ -93,6 +93,24 @@
     .socmed-footer{
         text-align: center !important;
     }
+    .about-us-desc .container .row div .about-us-banner--desc .left-side {
+        text-align: center;
+    }
+    .about-us-desc .container .row div .about-us-banner--desc .right-side {
+        padding: 20px 45px;
+    }
+    .decor-banner, .decor-milestone{
+        display: none;
+    }
+    .milestone, .work-together{
+        padding: 0px 40px;
+    }
+    .milestone .container .row{
+        padding-top: 0px;
+    }
+    .milestone .container .row .right-side-milestone .image-milestone img:nth-child(1){
+        margin-top: 30px;
+    }
  }
 /* // Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) { 

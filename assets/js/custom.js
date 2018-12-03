@@ -12,6 +12,26 @@ $(document).ready(function() {
             }
         });
 
+        var decor = $('.decor-milestone');
+        $(window).scroll(function() {
+            var scrollPos = $(window).scrollTop();
+            if (scrollPos >= 776) {
+                decor.css({"position":"fixed","top":"115px","right":"140px"});
+            } else {
+                decor.css({"position":"absolute","top":"-50px","right":"25px"});
+            }
+        });
+
+        var decor_banner = $('.decor-banner');
+        $(window).scroll(function() {
+            var scrollPos = $(window).scrollTop();
+            if (scrollPos >= 1298) {
+                decor_banner.css({"z-index":"-1"});
+            } else {
+                decor_banner.css({"z-index":"0"});
+            }
+        });
+
         $(document).on('click', '.search img',function(){
             var clicks = $(this).data('clicks');
             if (clicks) {

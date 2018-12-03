@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="text-center about-us-banner--image">
-                        <img src="assets/images/about_us/decoration.png" alt="">
+                        <img src="assets/images/about_us/decoration.png" alt="" class="decor-banner">
                         <img src="assets/images/about_us/about_us_banner.png" alt="">
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                 <div class="col-xl-6 right-side-milestone">
                     <div class="image-milestone pl-4 text-center">
                         <img src="assets/images/about_us/milestone_image.png" alt="">
-                        <img src="assets/images/about_us/decoration.png" alt="">
+                        <img src="assets/images/about_us/decoration.png" alt="" class="decor-milestone">
                     </div>
                     <ul class="list-milestone">
                         <li>Atria Hotel, Serpong, Tangerang</li>
