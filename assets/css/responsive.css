@@ -213,13 +213,122 @@
     #our-blog .row:nth-child(3){
         margin-top: 0px;
     }
+    /* about us page */
+    .decor-banner, .decor-milestone{
+        display: none;
+    }
+    .about-us-desc .container .row div .about-us-banner--desc .left-side{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about-us-desc .container .row div .about-us-banner--desc .right-side p{
+        font-size: 15pt;
+    }
+    .milestone .container .row{
+        padding-top: 0px;
+    }
+    .milestone .container .row .list-milestone li{
+        font-size: 17pt;
+    }
+    .milestone .container .row .left-side-milestone .milestone-title{
+        font-size: 25pt;
+    }
+    .milestone .container .row .right-side-milestone .image-milestone img:nth-child(1){
+        margin-top: 30px;
+    }
+    .work-together .container .row div .work-together-title{
+        font-size: 20pt;
+    }
+    .work-together .container .row div .mb-5{
+        font-size: 18pt;
+    }
+    /* about us page */
 }
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* home page */
+    #footer-lp{
+        padding-right: 60px;
+        padding-left: 50px;
+    }
+    /* home page */
+    /* about us page */
+    .about-us-desc, .milestone{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .about-us-desc .container .row div .about-us-banner--desc .right-side p{
+        font-size: 15pt;
+        margin-top: 30px;
+    }
+    .decor-banner, .decor-milestone{
+        display: none;
+    }
+    .milestone .container .row .left-side-milestone{
+        padding-top: 0px;
+    }
+    .milestone .container .row .list-milestone li{
+        font-size: 17pt;
+    }
+    .milestone .container .row .right-side-milestone .image-milestone img:nth-child(1){
+        margin-top: 30px;
+    }
+    .work-together{
+        padding: 0px 50px;
+    }
+    .work-together .container .row div .work-together-title{
+        font-size: 20pt;
+    }
+    .work-together .container .row div .mb-5{
+        font-size: 18pt;
+    }
+    /* about us page */
+}
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
- }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar #navbarNav ul{
+        margin-right: auto !important;
+    }
+    .search{
+        width: 120px;
+    }
+    .decor-banner, .decor-milestone{
+        display: none;
+    }
+    /* about us page */
+    .about-us-desc, .milestone{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .about-us-desc .container .row div .about-us-banner--desc .right-side p{
+        font-size: 15pt;
+        margin-top: 30px;
+    }
+    .decor-banner, .decor-milestone{
+        display: none;
+    }
+    .milestone .container .row .left-side-milestone{
+        padding-top: 0px;
+    }
+    .milestone .container .row .list-milestone li{
+        font-size: 17pt;
+    }
+    .milestone .container .row .right-side-milestone .image-milestone img:nth-child(1){
+        margin-top: 30px;
+    }
+    .work-together{
+        padding: 0px 50px;
+    }
+    .work-together .container .row div .work-together-title{
+        font-size: 20pt;
+    }
+    .work-together .container .row div .mb-5{
+        font-size: 18pt;
+    }
+    /* about us page */
+}
+/* @media (max-width: 1008px)  */
 @media (min-width: 1199.98px) { 
     .image-detail, .photo, .thumb-blog{
         float: left !important;
