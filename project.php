@@ -21,16 +21,16 @@
                             <div class="col-md-3 text-left col-2">
                                 <p class="bold">01</p>
                             </div>
-                            <div class="col-md-2 custom-width-col col-3">
+                            <div class="col-md-2 custom-width-col col-4">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3 col-7">
+                            <div class="col-md-3 col-6">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
-                            <div class="col-md-2 custom-width-col col-3 ml-auto">
+                            <div class="col-md-2 custom-width-col col-4 ml-auto">
                                 <p class="regular">Location <span class="ml-3">:</span></p>
                             </div>
-                            <div class="col-md-3 col-7 project-location">
+                            <div class="col-md-3 col-6 project-location">
                                 <p class="regular">GRILL ON RESTO</p>
                                 <i>Semarang - Indonesia</i>
                             </div>
@@ -42,16 +42,16 @@
                             <div class="col-md-3 text-left col-2">
                                 <p class="bold">02</p>
                             </div>
-                            <div class="col-md-2 custom-width-col col-3">
+                            <div class="col-md-2 custom-width-col col-4">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3 col-7">
+                            <div class="col-md-3 col-6">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
-                            <div class="col-md-2 custom-width-col col-3 ml-auto">
+                            <div class="col-md-2 custom-width-col col-4 ml-auto">
                                 <p class="regular">Location <span class="ml-3">:</span></p>
                             </div>
-                            <div class="col-md-3 col-7 project-location">
+                            <div class="col-md-3 col-6 project-location">
                                 <p class="regular">GRILL ON RESTO</p>
                                 <i>Semarang - Indonesia</i>
                             </div>
@@ -63,16 +63,16 @@
                             <div class="col-md-3 text-left col-2">
                                 <p class="bold">03</p>
                             </div>
-                            <div class="col-md-2 custom-width-col col-3">
+                            <div class="col-md-2 custom-width-col col-4">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3 col-7">
+                            <div class="col-md-3 col-6">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
-                            <div class="col-md-2 custom-width-col col-3 ml-auto">
+                            <div class="col-md-2 custom-width-col col-4 ml-auto">
                                 <p class="regular">Location <span class="ml-3">:</span></p>
                             </div>
-                            <div class="col-md-3 col-7 project-location">
+                            <div class="col-md-3 col-6 project-location">
                                 <p class="regular">GRILL ON RESTO</p>
                                 <i>Semarang - Indonesia</i>
                             </div>
