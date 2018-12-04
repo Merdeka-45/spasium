@@ -16,15 +16,15 @@
                         <p class="text-center bold subheadline">OUR<span class="ml-2 theme-color">PROJECT</span></p>
                     </div>
                     <div class="list-project">
-                        <img class="w-100" src="assets/images/project.png" alt="">
+                        <img class="w-100 project-img" src="assets/images/project.png" alt="">
                         <div class="row">
-                            <div class="col-md-3 text-left col-2">
+                            <div class="col-md-1 col-lg-1 col-xl-3 text-left col-2">
                                 <p class="bold">01</p>
                             </div>
-                            <div class="col-md-2 custom-width-col col-4">
+                            <div class="col-md-2 col-lg-2 custom-width-col col-4">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3 col-6">
+                            <div class="col-md-4 col-lg-3 col-6">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
                             <div class="col-md-2 custom-width-col col-4 ml-auto">
@@ -37,15 +37,15 @@
                         </div>
                     </div>
                     <div class="list-project">
-                        <img class="w-100" src="assets/images/project.png" alt="">
+                        <img class="w-100 project-img" src="assets/images/project.png" alt="">
                         <div class="row">
-                            <div class="col-md-3 text-left col-2">
+                            <div class="col-md-1 col-lg-1 col-xl-3 text-left col-2">
                                 <p class="bold">02</p>
                             </div>
-                            <div class="col-md-2 custom-width-col col-4">
+                            <div class="col-md-2 col-lg-2 custom-width-col col-4">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3 col-6">
+                            <div class="col-md-4 col-lg-3 col-6">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
                             <div class="col-md-2 custom-width-col col-4 ml-auto">
@@ -58,15 +58,15 @@
                         </div>
                     </div>
                     <div class="list-project">
-                        <img class="w-100" src="assets/images/project.png" alt="">
+                        <img class="w-100 project-img" src="assets/images/project.png" alt="">
                         <div class="row">
-                            <div class="col-md-3 text-left col-2">
+                            <div class="col-md-1 col-lg-1 col-xl-3 text-left col-2">
                                 <p class="bold">03</p>
                             </div>
-                            <div class="col-md-2 custom-width-col col-4">
+                            <div class="col-md-2 col-lg-2 custom-width-col col-4">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3 col-6">
+                            <div class="col-md-4 col-lg-3 col-6">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
                             <div class="col-md-2 custom-width-col col-4 ml-auto">
@@ -78,6 +78,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <nav aria-label="Page navigation example" class="pagination-spasium mb-5">
@@ -99,7 +100,7 @@
     <section class="see-client-project mb-5">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-md-10 text-center box-project">
+                <div class="col-md-10 col-10 text-center box-project">
                     <p class="bold">MAYBE YOU WANT TO SEE OUR CLIENT LIST</p>
                     <p class="mt-4 mb-4">It’s some of many project of any client that we handle, </br>
                         if you need to check our others client, please check out client list page.</p>
@@ -108,4 +109,7 @@
             </div>
         </div>
     </section>
+    <script>
+        ScrollReveal().reveal('.project-img', { delay: 300 });
+    </script>
 <?php include('footer.php');?>

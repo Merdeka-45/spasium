@@ -4,6 +4,9 @@
     }
 }
 @media (max-width: 575.98px) { 
+    .banner{
+        margin-top: 13%;
+    }
     .navbar-brand img{
         width: 50% !important;
     }
@@ -130,6 +133,9 @@
     .content-project div .justify-content-center .col-xl-9{
         padding-left: 40px;
     }
+    .see-client-project .box-project p:nth-child(2){
+        font-size: 15pt;
+    }
     /* project page */
  }
 /* // Small devices (landscape phones, less than 768px) */
@@ -233,6 +239,12 @@
     #our-blog .row:nth-child(3){
         margin-top: 0px;
     }
+    .socmed-footer .btn-group{
+        display: grid;
+    }
+    .socmed-footer .btn-group .btn{
+        margin-bottom: 10px;
+    }
     /* about us page */
     .decor-banner, .decor-milestone{
         display: none;
@@ -263,6 +275,19 @@
         font-size: 18pt;
     }
     /* about us page */
+    /* project page */
+    .content-project div .justify-content-center .col-xl-9{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .content-project div .justify-content-center .col-xl-9 .list-project .row .project-location{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .content-project div .justify-content-center .col-xl-9 .list-project .row .ml-auto{
+        margin-top: 10px;
+    }
+    /* project page */
 }
 /* // Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -303,6 +328,12 @@
         font-size: 18pt;
     }
     /* about us page */
+    /* project page */
+    .content-project div .justify-content-center .col-xl-9{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    /* project page */
 }
 
 /* // Large devices (desktops, less than 1200px) */
@@ -347,6 +378,12 @@
         font-size: 18pt;
     }
     /* about us page */
+    /* project page */
+    .content-project div .justify-content-center .col-xl-9{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    /* project page */
 }
 /* @media (max-width: 1008px)  */
 @media (min-width: 1199.98px) { 
