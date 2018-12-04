@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-xl-6 right-side-milestone">
                     <div class="image-milestone pl-4 text-center">
-                        <img src="assets/images/about_us/milestone_image.png" alt="">
+                        <img src="assets/images/about_us/milestone_image.png" alt="" class="image-milestone">
                         <img src="assets/images/about_us/decoration.png" alt="" class="decor-milestone">
                     </div>
                     <ul class="list-milestone">
@@ -79,4 +79,7 @@
             </div>
         </div>
     </section>
+<script>
+     ScrollReveal().reveal('.image-milestone', { delay: 300 });
+</script>
 <?php include('footer.php');?>

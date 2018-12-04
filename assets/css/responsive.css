@@ -1,3 +1,8 @@
+@media (max-width: 425px) { 
+    .content-project div .justify-content-center .col-xl-9 .list-project .row .custom-width-col .regular .ml-3{
+        margin-left: 7px !important;
+    }
+}
 @media (max-width: 575.98px) { 
     .navbar-brand img{
         width: 50% !important;
@@ -111,6 +116,21 @@
     .milestone .container .row .right-side-milestone .image-milestone img:nth-child(1){
         margin-top: 30px;
     }
+    /* project page */
+    .content-project div .justify-content-center .col-xl-9 .list-project .row .project-location{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .content-project div .justify-content-center .col-xl-9 .list-project .row .ml-auto{
+        margin-top: 10px;
+    }
+    .content-project div .justify-content-center .col-7{
+        padding-left: 20px;
+    }
+    .content-project div .justify-content-center .col-xl-9{
+        padding-left: 40px;
+    }
+    /* project page */
  }
 /* // Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -332,5 +352,8 @@
 @media (min-width: 1199.98px) { 
     .image-detail, .photo, .thumb-blog{
         float: left !important;
+    }
+    .content-project div .justify-content-center .col-xl-9 .list-project .row .custom-width-col{
+        max-width: 12%;
     }
  }

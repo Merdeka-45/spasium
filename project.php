@@ -18,19 +18,19 @@
                     <div class="list-project">
                         <img class="w-100" src="assets/images/project.png" alt="">
                         <div class="row">
-                            <div class="col-md-3 text-left">
+                            <div class="col-md-3 text-left col-2">
                                 <p class="bold">01</p>
                             </div>
-                            <div class="col-md-2 custom-width-col">
+                            <div class="col-md-2 custom-width-col col-3">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-7">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
-                            <div class="col-md-2 custom-width-col">
+                            <div class="col-md-2 custom-width-col col-3 ml-auto">
                                 <p class="regular">Location <span class="ml-3">:</span></p>
                             </div>
-                            <div class="col-md-3 text-right">
+                            <div class="col-md-3 col-7 project-location">
                                 <p class="regular">GRILL ON RESTO</p>
                                 <i>Semarang - Indonesia</i>
                             </div>
@@ -39,19 +39,19 @@
                     <div class="list-project">
                         <img class="w-100" src="assets/images/project.png" alt="">
                         <div class="row">
-                            <div class="col-md-3 text-left">
+                            <div class="col-md-3 text-left col-2">
                                 <p class="bold">02</p>
                             </div>
-                            <div class="col-md-2 custom-width-col">
+                            <div class="col-md-2 custom-width-col col-3">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-7">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
-                            <div class="col-md-2 custom-width-col">
+                            <div class="col-md-2 custom-width-col col-3 ml-auto">
                                 <p class="regular">Location <span class="ml-3">:</span></p>
                             </div>
-                            <div class="col-md-3 text-right">
+                            <div class="col-md-3 col-7 project-location">
                                 <p class="regular">GRILL ON RESTO</p>
                                 <i>Semarang - Indonesia</i>
                             </div>
@@ -60,19 +60,19 @@
                     <div class="list-project">
                         <img class="w-100" src="assets/images/project.png" alt="">
                         <div class="row">
-                            <div class="col-md-3 text-left">
+                            <div class="col-md-3 text-left col-2">
                                 <p class="bold">03</p>
                             </div>
-                            <div class="col-md-2 custom-width-col">
+                            <div class="col-md-2 custom-width-col col-3">
                                 <p class="regular">Artworks <span class="ml-3">:</span> </p>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-7">
                                 <p class="regular">Prambanan 2</p><i>by Spasium feat. Oetomo</i>
                             </div>
-                            <div class="col-md-2 custom-width-col">
+                            <div class="col-md-2 custom-width-col col-3 ml-auto">
                                 <p class="regular">Location <span class="ml-3">:</span></p>
                             </div>
-                            <div class="col-md-3 text-right">
+                            <div class="col-md-3 col-7 project-location">
                                 <p class="regular">GRILL ON RESTO</p>
                                 <i>Semarang - Indonesia</i>
                             </div>

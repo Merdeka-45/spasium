@@ -520,14 +520,14 @@ body{
 .content-project div .justify-content-center .col-xl-9 .list-project img{
     margin-bottom: 25px;
 }
-.content-project div .justify-content-center .col-xl-9 .list-project .row .custom-width-col{
-    max-width: 12%;
-}
 .content-project div .justify-content-center .col-xl-9 .list-project .row div .bold{
     font-size: 20pt;
 }
 .content-project div .justify-content-center .col-xl-9 .list-project .row div p{
     margin-bottom: 0px;
+}
+.content-project div .justify-content-center .col-xl-9 .list-project .row .project-location{
+    text-align: right;
 }
 .pagination-spasium ul li{
     margin: 0px 10px 0px 10px;
