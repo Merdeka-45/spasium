@@ -1,5 +1,5 @@
 <?php include('header.php');?>
-    <section class="banner banner--client">
+    <section class="banner">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12">

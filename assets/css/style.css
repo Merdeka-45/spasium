@@ -481,10 +481,7 @@ body{
 /* end of about us page */
 
 /* Client page */
-.banner--client{
-    margin-top: 17% ;
-}
-.banner--client  *, .banner--project *, .content-project *{
+.banner  *, .banner--project *, .content-project *{
     padding: 0px;
     margin: 0px;
 }
