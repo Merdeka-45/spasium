@@ -16,7 +16,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-12">
                     <div class="row justify-content-center about-us-banner--desc">
-                        <div class="col-xl-4 left-side">
+                        <div class="col-xl-4 left-side pl-5">
                             <p class="bold">WE CREATE <br> A HIGH QUALITY</p>
                             <p class="regular theme-color">ARTWORKS PRINTING <br> AND BEYOND</p>
                         </div>

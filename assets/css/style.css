@@ -92,7 +92,7 @@ body{
     margin-right: 10%;
 }
 .nav-item{
-    font-family: 'JosefinB';
+    font-family: 'JosefinR';
     margin-right: 35px;
     font-size: 11pt;
     color: #555555;
@@ -193,7 +193,7 @@ body{
 /* feature section */
 /* about us section */
 #about-us{
-    background-image: url('../images/bg-2.png');
+    background-image: url('../images/bg-find.png');
     padding-top: 47px;
     padding-bottom: 45px;
     background-attachment: fixed;
@@ -214,7 +214,6 @@ body{
     margin-bottom: 15%;
 }
 .detail-about-us p{
-    /* font-size: 12pt; */
     font-size: 15px;
     line-height: 1.2;
 }
@@ -413,15 +412,16 @@ body{
     margin-top: 40px;
 }
 .about-us-banner .container .row div .about-us-banner--image img:nth-child(1){
-    position: fixed;
-    left: 265px;
-    top: 370px;
+    position: relative;
+    /* left: -30px; */
+    left: 95px;
+    top: 70px;
     width: 65px;
 }
 .about-us-banner .container .row div .about-us-banner--image img:nth-child(2){
     /* width: 665px; */
     width: 60%;
-    margin-left: 10px;
+    margin-left: 65px;
 }
 .about-us-desc{
     margin-top: -145px;
@@ -432,10 +432,13 @@ body{
 .about-us-desc .container .row div .about-us-banner--desc .left-side p{
     margin-bottom: 0px;
     line-height: 1.3;
-    font-size: 22pt;
+    /* font-size: 22pt; */
+}
+.about-us-desc .container .row div .about-us-banner--desc .left-side .bold, .about-us-desc .container .row div .about-us-banner--desc .left-side .regular{
+    font-size: 1.5rem;
 }
 .about-us-desc .container .row div .about-us-banner--desc .right-side p{
-    font-size: 11pt;
+    font-size: 15px;
 }
 /* end of banner section */
 /* milestone */
